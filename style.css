@@ -1,3 +1,21 @@
-.body {
-  background-color: green;
+
+body {
+  background-color: var(--background);
 }
+
+
+
+
+/* Footer */
+footer {
+  line-height: 1.625rem;
+  font-size: 1rem;
+  padding: 3rem 2rem;
+}
+
+footer p {
+  margin-top: 2.375rem;
+  margin-bottom: 2.375rem;
+}
+
+/* End Footer */
