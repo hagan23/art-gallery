@@ -1,19 +1,60 @@
-:root {
-    
+/* :root can be useful for declaring global CSS variables */
+:root {  
     --background-color: #F7F5F2;
     --heading-color: #F56D91;
     --accent-color: #8D8DAA;
     --body-text-color: #DFDFDE;
 }
 
-
 body {
   background-color: var(--background-color);
 }
 
+/*--------------
+    front style begin
+  --------------*/
+  h1,
+  h2,
+  h3 {
+      color: var(--heading);
+      font-family: 'Big Shoulders Display', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+  }
+  
+  h3,
+  footer,
+  footer p,
+  .inspired-text h2, 
+  .inspired-text p {
+      color: var(--background);
+  }
+i {
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+}
+  h1 {
+    font-size: 3.65rem;
+    line-height: 3.3375rem;
+}
+  h2 span::before {
+    content:"\A";
+    white-space: pre;
+}
+h2 {
+      font-size: 3.135rem;
+      line-height: 2.9125rem;
+}
+p {
+      color: var(--body-text);
+      font-weight: 310;
+      line-height: 1.75rem;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.325rem; 
+  }  
+/* End front style */  
 
 /* layout begin */
-
 .section-wrapper {
       margin-left: 1rem;
       margin-right: 1rem;
@@ -45,7 +86,6 @@ body {
 .sec-one .container p{
     margin-top: 1.3125rem;
 }
-
 /* first section end  */
 
 
@@ -72,7 +112,6 @@ footer {
 /* second section end  */
 
 /* layout end */
-
 
 
 /* Footer */
