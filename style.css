@@ -113,8 +113,7 @@ footer {
 
 /* layout end */
 
-
-/* Footer */
+/* Footer begin */
 footer {
   line-height: 1.625rem;
   font-size: 1rem;
@@ -127,3 +126,18 @@ footer p {
 }
 
 /* End Footer */
+
+/* Larger Screens Begin */
+/*This should work for Normal desktops(15 to 18 inch) only.  */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+    
+}
+/*Larger Screen end */
+
+/* Tablet Screen begin */
+@media screen and (min-width: 768px) {
+
+}
+/* Tablet Screen end */
+
+
