@@ -200,110 +200,9 @@ footer a:hover {
 
 /* social media links end  */
 
-
-
-/* Larger Screens Begin */
-/*This should work for Normal desktops(15 to 18 inch) only.  */
-@media screen and (min-device-width: 1201px) and (-webkit-min-device-pixel-ratio: 1) { 
-    /* Typography Large Screens */
-    h1 {
-        font-size: 6rem;
-        line-height: 5.5rem;
-    }
-    p {
-        font-size: 1.375rem;
-        line-height: 2rem;
-    }
-
-    h2 {
-        font-size:3.75rem;
-        line-height: 3.75rem;
-    }
-
-    /* Layout Large Screens*/
-    .section-wrapper {
-        max-width: 69.375rem;
-    }
-
-    /* Header Large Screens*/
-    header {
-        position: relative;
-    }
-     .hero-container {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 11.5%;
-        margin-top: 11.8125rem;
-        max-width: 69.375rem;
-        position: absolute; 
-    }
-
-    .hero-img {
-        padding-left: 28.125rem;
-        background-color: var(--heading-color);
-        height: 50rem;
-    }
-
-
-    .hero-text {
-        margin-top: 0;
-        max-width: 350px;
-    }
-
-    .hero-container h1 {
-        color: var(--background-color);
-        margin-right: 246px;
-        mix-blend-mode: difference;
-        width: 514px;
-    }
- 
-    /* Section-1 Large Screens */
-    .sec-one,
-    .grid-three img {
-        margin-bottom: 1.875rem;
-    }
-
-    .container {
-        margin-right: 7.8125rem;
-        max-width: 21.875rem;
-    }
-
-    /* Section-2 Large Screens */
-    .grid-two img {
-        margin-right: 1.875rem;
-        width: 39.6875rem;
-    }
-
-    .inspired-container {
-        width: 27.8125rem;
-    }
-
-    .inspired-text {
-        padding: 4.0625rem 3rem;
-    }
-
-    /* Footer Large Screens */
-    footer p {
-        font-size: 1.125rem;
-        max-width: 26.875rem;
-    }
-   
-    footer {
-        padding: 5rem 10.3125rem;
-    }
-    
-}
-/*Larger Screen end */
-
-/* Tablet Screen begin */
-@media screen and (max-width: 1200px) {
-
-}
-/* Tablet Screen end */
-
-
+/* mobile screens start */
 /* Phone Screen begin */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
     h1 {
         font-size: 4.375rem;
         line-height: 4.0625rem;
@@ -409,6 +308,213 @@ footer a:hover {
          padding: 3.5rem 2.4375rem;
      }
 }
+/* mobile screens end  */
+
+
+/* Tablet Screen begin */
+@media screen and (min-width: 451px) {
+    /* Typography Tablet*/ 
+   h1 {
+       font-size: 4.375rem;
+       line-height: 4.0625rem;
+   }
+
+   h2 {
+    font-size: 3.125rem;
+    line-height: 2.8125rem;
+    }
+
+   h2 span::before {
+        display: none;
+    }
+
+    .section-1 .container p, 
+    .inspired-text p {
+        margin-top: 1.5rem;
+    }
+
+    /* Layout Tablet*/
+    .section-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 43.0625rem;
+    }
+
+    section {
+        display: flex;
+    }
+
+    /* Header Tablet*/
+    header {
+        display: flex;
+        margin-bottom: 7.5rem;
+    }
+
+    .hero-container {
+        margin-bottom: 0;
+        margin-left: -3.125rem;
+        margin-top: 9.0625rem;
+        max-width: 21.1875rem;
+    }
+
+    /* Section-1 Tablet*/
+    .sec-one {
+        margin-bottom: .6875rem;
+    }
+    .grid-one img {
+        margin-bottom: 0;
+    }
+
+    .grid-two {
+        order: 2;
+    }
+    
+    .container {
+        margin-right: 4.25rem;
+        max-width: 13.9375rem;
+    }
+
+    /* Section-2 Tablet */
+    .sec-two {
+        margin-bottom: 7.5rem;
+    }
+
+    .grid-two img {
+        margin-right: .6875rem;
+        width: 24.875rem;
+    }
+
+    .grid-three img{
+        margin-bottom: 5px;
+    }
+
+    .inspired-text, 
+    .grid-two img{
+        margin-bottom: 0;
+    }
+
+    .inspired-container {
+        width: 17.5rem;
+    } 
+
+    .inspired-text {
+        padding: 5.25rem 1.8125rem;
+    }
+    
+    /* Footer Tablet */
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p {
+        font-size: 1rem;
+        margin: 0;
+        max-width: 17.5625rem;
+    }
+    
+    footer {
+        padding: 3.5rem 2.4375rem;
+    }
+
+
+}
 /* Tablet Screen end */
+
+/* Larger Screens Begin */
+/*This should work for Normal desktops(15 to 18 inch) only.  */
+@media screen and (min-width: 1200px) { 
+    /* Typography Large Screens */
+    h1 {
+        font-size: 6rem;
+        line-height: 5.5rem;
+    }
+    p {
+        font-size: 1.375rem;
+        line-height: 2rem;
+    }
+
+    h2 {
+        font-size:3.75rem;
+        line-height: 3.75rem;
+    }
+
+    /* Layout Large Screens*/
+    .section-wrapper {
+        max-width: 90.375rem;
+    }
+
+    /* Header Large Screens*/
+    header {
+        position: relative;
+        /* border: red solid; */
+    }
+
+    .hero-container {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11.5%;
+        margin-top: 11.8125rem;
+        max-width: 69.375rem;
+        position: absolute; 
+    }
+
+    .hero-img {
+        padding-left: 20rem;
+        background-color: var(--accent-color);
+        height: 50rem;
+    }
+
+
+    .hero-text {
+        margin-top: 0;
+        max-width: 350px;
+    }
+
+    .hero-container h1 {
+        color: var(--background-color);
+        margin-right: 246px;
+        mix-blend-mode: difference;
+        width: 514px;
+    }
+ 
+    /* Section-1 Large Screens */
+    .sec-one,
+    .grid-three img {
+        margin-bottom: 1.875rem;
+    }
+
+    .container {
+        text-align: center;
+        margin-left: 17.8125rem;
+        max-width: 21.875rem;
+    }
+
+    /* Section-2 Large Screens */
+    .grid-two img {
+        margin-left: 13rem;
+        width: 39.6875rem;
+    }
+
+    .inspired-container {
+        width: 27.8125rem;
+    }
+
+    .inspired-text {
+        padding: 4.0625rem 3rem;
+    }
+
+    /* Footer Large Screens */
+    footer p {
+        font-size: 1.125rem;
+        max-width: 26.875rem;
+    }
+   
+    footer {
+        padding: 5rem 10.3125rem;
+    }
+    
+}
+/*Larger Screen end */
 
 
