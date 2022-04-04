@@ -370,7 +370,7 @@ footer a:hover {
     }
     
     .container {
-        margin-right: 4.25rem;
+        margin-left: 4.25rem;
         max-width: 13.9375rem;
     }
 
@@ -380,7 +380,7 @@ footer a:hover {
     }
 
     .grid-two img {
-        margin-right: .6875rem;
+        margin-left: .6875rem;
         width: 24.875rem;
     }
 
