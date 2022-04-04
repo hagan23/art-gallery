@@ -318,7 +318,7 @@ footer a:hover {
          display: none;
      }
  
-     .section-1 .container p, 
+     .sec-one .container p, 
      .inspired-text p {
          margin-top: 1.5rem;
      }
@@ -348,14 +348,14 @@ footer a:hover {
      }
  
      /* Section-1 Phone Screen*/
-     .section-one {
+     .sec-one {
          margin-bottom: .6875rem;
      }
-     .grid-1 img {
+     .grid-one img {
          margin-bottom: 0;
      }
  
-     .grid-1 {
+     .grid-one {
          order: 2;
      }
      
@@ -365,16 +365,16 @@ footer a:hover {
      }
  
      /* Section-2 Phone Screen */
-     .section-two {
+     .sec-two {
          margin-bottom: 7.5rem;
      }
  
-     .grid-2 img {
+     .grid-two img {
          margin-right: .6875rem;
          width: 24.875rem;
      }
  
-     .grid-3 img{
+     .grid-three img{
          margin-bottom: 5px;
      }
  
@@ -382,7 +382,7 @@ footer a:hover {
         padding: 5.25rem 1.8125rem;
     }
      .inspired-text, 
-     .grid-2 img{
+     .grid-two img{
          margin-bottom: 0;
      }
  
