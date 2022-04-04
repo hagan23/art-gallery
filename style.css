@@ -3,7 +3,7 @@
     --background-color: #F7F5F2;
     --heading-color: #F56D91;
     --accent-color: #8D8DAA;
-    --body-text-color: #DFDFDE;
+    --body-text-color: black;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   h1,
   h2,
   h3 {
-      color: var(--heading);
+      color: var(--heading-color);
       font-family: 'Crimson Pro', serif;
       font-weight: 900;
       text-transform: uppercase;
@@ -41,7 +41,7 @@ body {
   footer p,
   .inspired-text h2, 
   .inspired-text p {
-      color: var(--background);
+      color: var(--background-color);
   }
 i {
     font-size: 1.25rem;
@@ -60,7 +60,7 @@ h2 {
       line-height: 2.9125rem;
 }
 p {
-      color: var(--body-text);
+      color: var(--body-text-color);
       font-weight: 310;
       line-height: 1.75rem;
       font-family: 'Crimson Pro', serif;
@@ -112,7 +112,7 @@ p {
 
 .inspired-text,
 footer {
-    background-color: var(--heading);
+    background-color: var(--heading-color);
 }
 
 .inspired-text {  
@@ -153,14 +153,14 @@ footer p {
 .arrow {
     width: 3.5rem;
     justify-content: center;
-    background-color: var(--accent);
+    background-color: var(--accent-color);
 }
 
 .link {
     width: 16.25rem;
     justify-content: space-between;
     margin-top: 2rem;
-    background-color: var(--heading);
+    background-color: var(--heading-color);
 }
 
 .link a {
@@ -171,7 +171,7 @@ footer p {
     line-height: 1.49625rem;
     letter-spacing: 3.64px;
     text-decoration: none;
-    color: var(--background);
+    color: var(--background-color);
 }
 
 .link:hover,
@@ -180,22 +180,22 @@ footer p {
 }
 
 .link:hover {
-    background-color: var(--accent);
+    background-color: var(--accent-color);
 }
 
 .link:hover .arrow {
-    background-color: var(--heading);
+    background-color: var(--heading-color);
 }
 /* All links and button end  */
 
 
 /* social media links */
 footer a {
-    color: var(--background);
+    color: var(--background-color);
 }
 
 footer a:hover {
-    color: var(--accent);
+    color: var(--accent-color);
 }
 
 /* social media links end  */
@@ -205,6 +205,92 @@ footer a:hover {
 /* Larger Screens Begin */
 /*This should work for Normal desktops(15 to 18 inch) only.  */
 @media screen and (min-device-width: 1201px) and (-webkit-min-device-pixel-ratio: 1) { 
+    /* Typography Large Screens */
+    h1 {
+        font-size: 6rem;
+        line-height: 5.5rem;
+    }
+    p {
+        font-size: 1.375rem;
+        line-height: 2rem;
+    }
+
+    h2 {
+        font-size:3.75rem;
+        line-height: 3.75rem;
+    }
+
+    /* Layout Large Screens*/
+    .section-wrapper {
+        max-width: 69.375rem;
+    }
+
+    /* Header Large Screens*/
+    header {
+        position: relative;
+    }
+     .hero-container {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11.5%;
+        margin-top: 11.8125rem;
+        max-width: 69.375rem;
+        position: absolute; 
+    }
+
+    .hero-img {
+        padding-left: 28.125rem;
+        background-color: var(--heading-color);
+        height: 50rem;
+    }
+
+
+    .hero-text {
+        margin-top: 0;
+        max-width: 350px;
+    }
+
+    .hero-container h1 {
+        color: var(--background-color);
+        margin-right: 246px;
+        mix-blend-mode: difference;
+        width: 514px;
+    }
+ 
+    /* Section-1 Large Screens */
+    .sec-one,
+    .grid-three img {
+        margin-bottom: 1.875rem;
+    }
+
+    .container {
+        margin-right: 7.8125rem;
+        max-width: 21.875rem;
+    }
+
+    /* Section-2 Large Screens */
+    .grid-two img {
+        margin-right: 1.875rem;
+        width: 39.6875rem;
+    }
+
+    .inspired-container {
+        width: 27.8125rem;
+    }
+
+    .inspired-text {
+        padding: 4.0625rem 3rem;
+    }
+
+    /* Footer Large Screens */
+    footer p {
+        font-size: 1.125rem;
+        max-width: 26.875rem;
+    }
+   
+    footer {
+        padding: 5rem 10.3125rem;
+    }
     
 }
 /*Larger Screen end */
