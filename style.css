@@ -127,19 +127,80 @@ footer {
 
 /* layout end */
 
+
 /* Footer begin */
 footer {
   line-height: 1.625rem;
-  font-size: 1rem;
   padding: 3rem 2rem;
+  font-size: 1rem;
 }
 
 footer p {
-  margin-top: 2.375rem;
-  margin-bottom: 2.375rem;
+    margin-top: 2.375rem;
+    margin-bottom: 2.375rem;
+}
+/* End Footer */
+
+
+/* All links and button start */
+.arrow, 
+.link {
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
 }
 
-/* End Footer */
+.arrow {
+    width: 3.5rem;
+    justify-content: center;
+    background-color: var(--accent);
+}
+
+.link {
+    width: 16.25rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: var(--heading);
+}
+
+.link a {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.49625rem;
+    letter-spacing: 3.64px;
+    text-decoration: none;
+    color: var(--background);
+}
+
+.link:hover,
+.link:hover .arrow {
+    transition: all .5s ease-out;
+}
+
+.link:hover {
+    background-color: var(--accent);
+}
+
+.link:hover .arrow {
+    background-color: var(--heading);
+}
+/* All links and button end  */
+
+
+/* social media links */
+footer a {
+    color: var(--background);
+}
+
+footer a:hover {
+    color: var(--accent);
+}
+
+/* social media links end  */
+
+
 
 /* Larger Screens Begin */
 /*This should work for Normal desktops(15 to 18 inch) only.  */
